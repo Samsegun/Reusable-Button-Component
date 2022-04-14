@@ -1,14 +1,23 @@
+import NormalButton from "./Components/NormalButton";
+import OutlineButton from "./Components/OutlineButton";
+import ShadowButton from "./Components/ShadowButton";
+import TextButton from "./Components/TextButton";
+
 function App() {
   return (
-    <div className="text-xl">
-      <h1 className="font-noto-sans">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-        molestias.
-      </h1>
-      <h1 className="font-poppins">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
-        iusto?
-      </h1>
+    <div className=" max-w-[1440px] mx-auto min-h-[1024px]">
+      <div className="ml-20 pt-[53px]">
+        <h1 className="text-2xl font-medium font-poppins text-heading">
+          Buttons
+        </h1>
+
+        <div>
+          <NormalButton />
+          <OutlineButton />
+          <TextButton />
+          <ShadowButton />
+        </div>
+      </div>
     </div>
   );
 }

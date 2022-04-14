@@ -4,8 +4,18 @@ module.exports = {
     fontFamily: {
       "noto-sans": ["Noto Sans JP", "serif"],
       poppins: ["Poppins", "serif"],
+      ubuntu: ["Ubuntu Mono", "serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        heading: "#4F4F4F",
+        normal: "#E0E0E0",
+        "tag-text": "#333333",
+        "normal-text": "#3F3F3F",
+        "lighter-blue": "#3D5AFE",
+        "darker-blue": "#2962FF",
+      },
+    },
   },
   plugins: [],
 };
