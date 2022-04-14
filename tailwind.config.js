@@ -5,11 +5,13 @@ module.exports = {
       "noto-sans": ["Noto Sans JP", "serif"],
       poppins: ["Poppins", "serif"],
       ubuntu: ["Ubuntu Mono", "serif"],
+      montserat: ["Montserrat", "serif"],
     },
     extend: {
       colors: {
         heading: "#4F4F4F",
         normal: "#E0E0E0",
+        hover: "#AEAEAE",
         "tag-text": "#333333",
         "normal-text": "#3F3F3F",
         "lighter-blue": "#3D5AFE",

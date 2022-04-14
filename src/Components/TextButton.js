@@ -1,8 +1,13 @@
-import MainButton from "./MainButton";
+import ButtonContainer from "./ButtonContainer";
+import UIButton from "./UIButton";
 
 const TextButton = () => {
   return (
-    <MainButton tagText='variant="text"' buttonStyles="text-lighter-blue" />
+    <ButtonContainer tagText='variant="text"'>
+      <div>
+        <UIButton buttonStyles="text-lighter-blue" />
+      </div>
+    </ButtonContainer>
   );
 };
 
