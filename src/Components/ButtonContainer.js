@@ -1,4 +1,4 @@
-// import UIButton from "./UIButton";
+import TagText from "./TagText";
 
 const ButtonContainer = props => {
   let buttonText = props.parentText
@@ -6,10 +6,8 @@ const ButtonContainer = props => {
     : `<Button ${props.tagText ? props.tagText : ""} />`;
 
   return (
-    <div className="mt-12">
-      <p className="text-xs text-tag-text">
-        <code className="font-ubuntu">{buttonText}</code>
-      </p>
+    <div>
+      <TagText buttonText={buttonText} tagStyles={props.tagStyles} />
       {props.children}
     </div>
   );

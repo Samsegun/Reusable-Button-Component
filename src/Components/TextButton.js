@@ -1,13 +1,22 @@
 import ButtonContainer from "./ButtonContainer";
 import UIButton from "./UIButton";
+import Wrapper from "./Wrapper";
 
 const TextButton = () => {
   return (
-    <ButtonContainer tagText='variant="text"'>
-      <div>
+    <Wrapper styles="flex gap-[5.4rem]">
+      <ButtonContainer tagText='variant="text"'>
         <UIButton buttonStyles="text-lighter-blue" />
-      </div>
-    </ButtonContainer>
+      </ButtonContainer>
+
+      {/* hover and focus */}
+      <ButtonContainer
+        parentText="&:hover, &:focus"
+        tagStyles="text-light-gray"
+      >
+        <UIButton buttonStyles="text-lighter-blue bg-[#2962ff1a] px-5 py-2" />
+      </ButtonContainer>
+    </Wrapper>
   );
 };
 

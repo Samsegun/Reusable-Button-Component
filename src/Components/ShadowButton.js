@@ -1,13 +1,14 @@
 import ButtonContainer from "./ButtonContainer";
 import UIButton from "./UIButton";
+import Wrapper from "./Wrapper";
 
 const ShadowButton = () => {
   return (
-    <ButtonContainer tagText="disableShadow">
-      <div>
-        <UIButton buttonStyles="text-white bg-lighter-blue py-2 px-4" />
-      </div>
-    </ButtonContainer>
+    <Wrapper>
+      <ButtonContainer tagText="disableShadow">
+        <UIButton buttonStyles="text-white bg-lighter-blue py-2 px-4 " />
+      </ButtonContainer>
+    </Wrapper>
   );
 };
 
