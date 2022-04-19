@@ -8,7 +8,10 @@ const DisabledButton = () => {
       <ButtonContainer tagText="disabled">
         <UIButton
           variant="Disabled"
-          buttonStyles="bg-normal text-[#9E9E9E] py-2 px-4"
+          buttonStyles={
+            "bg-normal text-[#9E9E9E] py-2 px-4 disabled:cursor-not-allowed"
+          }
+          disable={true}
         />
       </ButtonContainer>
 
@@ -17,7 +20,11 @@ const DisabledButton = () => {
         tagText='variant="text" disabled'
         tagStyles="text-light-gray"
       >
-        <UIButton variant="Disabled" buttonStyles="text-[#9E9E9E] py-2" />
+        <UIButton
+          variant="Disabled"
+          buttonStyles="text-[#9E9E9E] py-2 disabled:cursor-not-allowed"
+          disable={true}
+        />
       </ButtonContainer>
     </Wrapper>
   );

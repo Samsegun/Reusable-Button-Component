@@ -12,14 +12,14 @@ import TextButton from "./Components/TextButton";
 function App() {
   return (
     <div className=" max-w-[1440px] mx-auto min-h-[1024px]">
-      <div className="ml-20 pt-[53px]">
+      <div className="ml-20 pt-[53px] xs:mx-auto xs:w-[95%]">
         {/*  page header */}
         <h1 className="text-2xl font-medium font-poppins text-heading">
           Buttons
         </h1>
 
         {/* button components */}
-        <div className="mb-12">
+        <div className="mb-12 ">
           <NormalButton />
           <OutlineButton />
           <TextButton />

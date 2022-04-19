@@ -1,6 +1,13 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      xs: "300px",
+      sm: "476px",
+      ...defaultTheme.screens,
+    },
     fontFamily: {
       "noto-sans": ["Noto Sans JP", "serif"],
       poppins: ["Poppins", "serif"],
@@ -20,6 +27,9 @@ module.exports = {
         "lighter-blue": "#3D5AFE",
         "darker-blue": "#2962FF",
         "light-gray": "#828282",
+      },
+      screens: {
+        lg: "873px",
       },
     },
   },

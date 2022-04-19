@@ -6,7 +6,7 @@ const TextButton = () => {
   return (
     <Wrapper styles="flex gap-[5.4rem]">
       <ButtonContainer tagText='variant="text"'>
-        <UIButton buttonStyles="text-lighter-blue" />
+        <UIButton buttonStyles="text-lighter-blue hover:bg-[#2962ff1a] hover:px-5 py-2 transition-all duration-200" />
       </ButtonContainer>
 
       {/* hover and focus */}

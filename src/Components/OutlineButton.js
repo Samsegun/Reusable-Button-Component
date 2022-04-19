@@ -8,7 +8,7 @@ const OutlineButton = () => {
       <ButtonContainer tagText='variant="outline"'>
         <UIButton
           buttonStyles="border border-lighter-blue 
-        text-lighter-blue py-2 px-5"
+        text-lighter-blue py-2 px-5  hover:bg-[#2962ff1a] transition-all duration-200"
         />
       </ButtonContainer>
 
