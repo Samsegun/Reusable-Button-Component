@@ -41,8 +41,6 @@
 
 ![screenshot](./src/assets/screencapture-samsegun-button-component-netlify-app-2022-04-20-12_10_16.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
 Hey there, i took this challenge from <a href="https://devchallenges.io/">devchallenges </a>. You can find a demo of my solution <a href="https://samsegun-button-component.netlify.app/">
 Here.
 </a>
@@ -69,7 +67,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/Samsegun/Reusable-Button-Component
 
 # Install dependencies
 $ npm install
@@ -91,4 +89,4 @@ $ npm start
 <!-- - Website [your-website.com](https://{your-web-site-link}) -->
 
 - GitHub [@Samsegun](https://github.com/Samsegun)
-- Twitter [@olusegun oye](https://{twitter.com/datsleumas})
+- Twitter [@olusegun oye](https://twitter.com/datsleumas)
