@@ -3,6 +3,11 @@ import ButtonContainer from "./ButtonContainer";
 import UIButton from "./UIButton";
 import Wrapper from "./Wrapper";
 
+// this usereducer manages click events for buttons with cart icons on the left and
+// right. When user clicks any of the buttons, an action is dispatched to the reducer
+// and updates the state to the opposite of the old state i.e true becomes false and
+// vice-versa. The current position of the icon depends on whether its current state is true
+// or false.
 const initialState = { startIcon: true, endIcon: true };
 
 const reducer = (state, action) => {

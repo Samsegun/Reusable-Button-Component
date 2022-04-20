@@ -13,7 +13,7 @@ const FooterText = () => {
         <a href="https://github.com/Samsegun" className="font-bold">
           Samsegun
         </a>{" "}
-        - devChallenges.io
+        - <a href="https://devchallenges.io/">devChallenges.io</a>
       </p>
     </div>
   );
